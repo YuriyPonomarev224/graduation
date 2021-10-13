@@ -1,0 +1,80 @@
+.firstpage {
+    margin: 0 auto;
+    padding-top: 7px;
+    background: url(../../img/Book-like.png) top center no-repeat;
+    background-size: contain;
+    max-width: 1440px;
+    
+    &__wrapper {
+        position: relative;
+        margin: 40px auto 0 auto;
+        padding-top: 64px;
+        max-width: 1300px;
+        min-height: 640px;
+    }
+
+    &__text {
+        max-width: 451px;
+        margin: 0 95px 0 auto;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+        color: #272526;
+        h1 {
+            margin-bottom: 0;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 56px;
+            line-height: 76px;
+        }
+        h2 {
+            margin-bottom: 11px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 33px;
+            font-feature-settings: 'ordn' on;
+            color: #7E7E7E;
+        }
+        h3 {
+            margin-top: 79px;
+            margin-bottom: 0;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+            font-feature-settings: 'ordn' on;
+            color: #7E7E7E;
+        }
+
+        button {
+            width: 237px;
+            height: 64px;
+            background: #6AA3F9;
+            box-shadow: 4px 4px 5px rgba(119, 119, 119, 0.25);
+            border-radius: 3px 3px 10px 10px;
+            border: 0 ;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+            font-feature-settings: 'ordn' on;
+            color: #F2F0F1;
+            &:hover {
+                background: #4586E8; }
+            img {
+                margin-right: 16px;
+            }
+        }
+
+    }
+
+    &__img {
+        position: absolute;
+        top: 0px;
+        z-index: -1
+        ;
+    }
+}
